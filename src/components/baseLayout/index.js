@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
+import Footer from './footer';
+
 import '../../App.css';
 
 class BaseLayout extends Component {
@@ -8,7 +10,7 @@ class BaseLayout extends Component {
       <div className='baseLayoutContainer'>
         <Header />
           {this.props.children}
-        <footer>Footer holder</footer>
+        <Footer />
       </div>
     );
   }
