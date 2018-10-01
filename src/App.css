@@ -12,4 +12,23 @@
   height: auto;
   padding: 0; }
 
+.landingPageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.aboutUsContainer {
+  padding: 5%; }
+  .aboutUsContainer h1 {
+    text-align: center; }
+  .aboutUsContainer p {
+    text-align: center; }
+
+body {
+  background-color: #000000;
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px; }
+
 /*# sourceMappingURL=App.css.map */
