@@ -1,13 +1,19 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 import '../../App.css';
 import AboutUs from '../aboutUs';
+import Banner from '../banner';
+
+
 
 
 class LandingPage extends Component {
   render() {
     return (
       <div className='landingPageContainer'>
+        <Banner />
         <Carousel>
           <Carousel.Item>
           <img width={900} height={500} alt="900x500" src="images/CHARACTER_2.png" alt='firstImage'/>
@@ -30,8 +36,10 @@ class LandingPage extends Component {
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
           </Carousel.Item>
-        </Carousel>;
-        <AboutUs />
+        </Carousel>
+        <ScrollAnimation animateIn='zoomInDown'>
+          <AboutUs />
+        </ScrollAnimation>
       </div>
     );
   }

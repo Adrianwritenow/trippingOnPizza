@@ -10,7 +10,7 @@ class Header extends Component {
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <img className='headerLogo' src='images/mainLogo1.png' />
+              <img className='headerLogo' src='images/CHARACTER_2.png' />
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
