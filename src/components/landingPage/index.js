@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import '../../App.css';
 import {Carousel} from 'react-bootstrap';
+import '../../App.css';
+import AboutUs from '../aboutUs';
+
 
 class LandingPage extends Component {
   render() {
@@ -29,6 +31,7 @@ class LandingPage extends Component {
           </Carousel.Caption>
           </Carousel.Item>
         </Carousel>;
+        <AboutUs />
       </div>
     );
   }
