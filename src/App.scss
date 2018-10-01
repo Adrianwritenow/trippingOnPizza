@@ -2,9 +2,8 @@
   background-color: black;
   width: 100%;
   color: green;
-  position:fixed;
   left:0px;
-  bottom:0px;
+  bottom:0%;
   height:30px;
 }
 
@@ -41,6 +40,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  height: auto;
 }
 
 .bannerContainer{
@@ -64,7 +64,7 @@ html{
 
 body {
   width: auto;
-  height: 2380px;
+  height: auto;
   color: #fff;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
