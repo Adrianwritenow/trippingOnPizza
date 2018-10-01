@@ -10,17 +10,17 @@ class Header extends Component {
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#brand">React-Bootstrap</a>
+              <img className='headerLogo' src='images/mainLogo1.png' />
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
               <NavItem eventKey={1} href="#">
-                Link
+                Contact
               </NavItem>
               <NavItem eventKey={2} href="#">
-                Link
+                Merch
               </NavItem>
               <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1}>Action</MenuItem>
