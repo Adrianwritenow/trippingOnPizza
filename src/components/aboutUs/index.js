@@ -6,6 +6,12 @@ class AboutUs extends Component {
   render() {
     return (
       <div className='aboutUsContainer'>
+      <div className='aboutUsImgContainer'>
+        <img src='images/Placeholder.png'/>
+        <img src='images/Placeholder.png'/>
+        <img src='images/Placeholder.png'/>
+        <img src='images/Placeholder.png'/>
+      </div>
         <div className='aboutUsText'>
           <h1>WHO WE ARE & WHY WE DO IT</h1>
             <p> We are a conscious couple with a serious passion for pizza. Chef Mike B, an NJ native,
@@ -29,7 +35,7 @@ class AboutUs extends Component {
               enjoy it as much as we do!
             </p>
           </div>
-          <div className='aboutUsImgContainer'>
+
       </div>
     );
   }

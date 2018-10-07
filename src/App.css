@@ -22,11 +22,17 @@
 .aboutUsContainer {
   padding: 5%;
   background-color: rgba(0, 0, 0, 0.6);
-  margin-left: -10%; }
+  margin-left: -10%;
+  display: flex; }
   .aboutUsContainer h1 {
     text-align: center; }
   .aboutUsContainer p {
     text-align: center; }
+  .aboutUsContainer .aboutUsImgContainer img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 25px; }
 
 .baseLayoutContainer {
   display: flex;
@@ -39,7 +45,8 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100vw;
-  height: 100vh; }
+  height: 95vh;
+  margin-top: 10%; }
   .bannerContainer img {
     width: 80vw;
     height: 80vh; }
