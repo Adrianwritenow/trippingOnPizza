@@ -8,7 +8,8 @@ class Banner extends Component {
   render() {
     return (
       <div className='bannerContainer'>
-      <ScrollAnimation animateIn='bounceInDown'>
+      <ScrollAnimation duration={1.5} animateIn='rotateIn' animateOut='rotateOut'>
+
         <img src='images/mainLogo1.png'/>
       </ScrollAnimation>
       </div>
