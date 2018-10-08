@@ -22,17 +22,20 @@
 .aboutUsContainer {
   padding: 5%;
   background-color: rgba(0, 0, 0, 0.6);
-  margin-left: -10%;
-  display: flex; }
+  display: -ms-flexbox;
+  width: 100vw; }
   .aboutUsContainer h1 {
     text-align: center; }
   .aboutUsContainer p {
-    text-align: center; }
-  .aboutUsContainer .aboutUsImgContainer img {
+    font-size: 1.5em;
+    font-weight: lighter; }
+  .aboutUsContainer .aboutUsText img {
     width: 200px;
     height: 200px;
     padding: 10px;
-    margin-bottom: 25px; }
+    margin-top: 25px; }
+  .aboutUsContainer .aboutUsText .left {
+    float: left; }
 
 .baseLayoutContainer {
   display: flex;

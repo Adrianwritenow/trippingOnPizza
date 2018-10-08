@@ -25,24 +25,31 @@
 }
 
 .aboutUsContainer{
-  padding:5%;
-  background-color:rgba(0, 0, 0, .6);
-  margin-left: -10%;
-  display: flex;
+  padding: 5%;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: -ms-flexbox;
+      width: 100vw;
+
 
   h1{
     text-align: center;
   }
   p{
-    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+
   }
 
-  .aboutUsImgContainer{
+  .aboutUsText{
     img{
       width: 200px;
       height:200px;
       padding: 10px;
-      margin-bottom: 25px;
+      margin-top: 25px;
+    }
+
+    .left{
+      float: left;
     }
   }
 }

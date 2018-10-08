@@ -37,7 +37,7 @@ class LandingPage extends Component {
           </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <ScrollAnimation animateIn='zoomInDown'>
+        <ScrollAnimation animateIn='fadeInLeft'>
           <AboutUs />
         </ScrollAnimation>
       </div>
