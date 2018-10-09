@@ -130,5 +130,14 @@ body {
     text-shadow: -8px -4px #f44336, -5px -4px #2196f3; }
   100% {
     text-shadow: -5px 0 #f44336, 5px -4px #2196f3; } }
+.foodContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 30px;
+  margin-right: 30px; }
 
 /*# sourceMappingURL=App.css.map */
