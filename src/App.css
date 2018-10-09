@@ -134,10 +134,24 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: auto;
+  height: 350px;
   margin-top: 150px;
   margin-bottom: 150px;
   margin-left: 30px;
-  margin-right: 30px; }
+  margin-right: 30px;
+  background-color: #899eb8;
+  box-shadow: 20px 30px  50px black;
+  border-width: 10px;
+  border-style: solid;
+  -webkit-border-image: -webkit-gradient(linear, 0, 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%; }
+  .foodContainer p {
+    width: 90%;
+    border-top: 1px solid antiquewhite;
+    padding-top: 30px;
+    border-bottom: 1px solid antiquewhite; }
 
 /*# sourceMappingURL=App.css.map */
