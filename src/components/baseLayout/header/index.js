@@ -22,7 +22,7 @@ class Header extends Component {
               <NavItem eventKey={2} href="#">
                 Merch
               </NavItem>
-              <NavItem eventKey={3} href="#">
+              <NavItem eventKey={3} href="/food">
                 Food
               </NavItem>
 
