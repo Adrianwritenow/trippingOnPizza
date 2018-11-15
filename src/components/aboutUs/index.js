@@ -18,7 +18,6 @@ class AboutUs extends Component {
               Sunshine a loyal Clevelander who devoted her early years to raising plastic waste
               awareness and now the fight against GMO products are an exciting pizza duo, and
               together they run this pizza juggernaut.
-              <img className='left' src='images/Placeholder.png'/>
 
               In 2018 during a trip to Chef Mike B’s homeland Avellino, Italy he decided to expand “the
               craft” by apprenticing renowned Roman pizzaiolo Chef Gabriele Bonci during that time
@@ -26,7 +25,7 @@ class AboutUs extends Component {
               this new found experience to the masses they are hitting the streets with their latest
               project “Trippin’ on Pizza a new style pizza food truck that’s exploding with taste and
               style
-              <img className='left' src='images/Placeholder.png'/>
+              <img className='full' src='images/Placeholder.png'/>
 
               We strongly believe that pizza should be honest, creative, and taste good. Pizza has the
               power to bring friends, families and communities together. We are extremely grateful to

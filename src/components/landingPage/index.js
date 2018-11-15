@@ -5,6 +5,8 @@ import "animate.css/animate.min.css";
 import '../../App.css';
 import AboutUs from '../aboutUs';
 import Banner from '../banner';
+import Food from '../food';
+
 
 
 
@@ -40,6 +42,17 @@ class LandingPage extends Component {
         <ScrollAnimation animateIn='fadeInLeft'>
           <AboutUs />
         </ScrollAnimation>
+        
+        <Food />
+
+        <form action="https://formspree.io/your@email.com" method="POST">
+          <input type="text" placeholder="YOUR NAME?" name="name"/>
+          <input type="email" placeholder="YOUR EMAIL?" name="_replyto"/>
+          <textarea name="message" placeholder="WHAT'S UP?"></textarea>
+          <button type="submit" value="Send">SUBMIT</button>
+        </form>
+
+
       </div>
     );
   }

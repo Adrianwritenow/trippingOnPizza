@@ -14,8 +14,8 @@ class Food extends Component {
         fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
         sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <img className='left' src='images/Placeholder.png'/>
-        <img className='left' src='images/Placeholder.png'/>
-        <img className='left' src='images/Placeholder.png'/>
+        <img className='right' src='images/Placeholder.png'/>
+        <img className='full' src='images/Placeholder.png'/>
 
       </div>
     );
