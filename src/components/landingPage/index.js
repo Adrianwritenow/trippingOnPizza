@@ -42,16 +42,17 @@ class LandingPage extends Component {
         <ScrollAnimation animateIn='fadeInLeft'>
           <AboutUs />
         </ScrollAnimation>
-        
+
         <Food />
-
-        <form action="https://formspree.io/your@email.com" method="POST">
-          <input type="text" placeholder="YOUR NAME?" name="name"/>
-          <input type="email" placeholder="YOUR EMAIL?" name="_replyto"/>
-          <textarea name="message" placeholder="WHAT'S UP?"></textarea>
-          <button type="submit" value="Send">SUBMIT</button>
-        </form>
-
+        <div className='formWrapper' id='contact'>
+          <h1>CONTACT US</h1>
+          <form action="https://formspree.io/your@email.com" method="POST">
+            <input type="text" placeholder="YOUR NAME?" name="name"/>
+            <input type="email" placeholder="YOUR EMAIL?" name="_replyto"/>
+            <textarea name="message" placeholder="WHAT'S UP?"></textarea>
+            <button type="submit" value="Send">SUBMIT</button>
+          </form>
+        </div>
 
       </div>
     );

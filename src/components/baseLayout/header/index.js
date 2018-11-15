@@ -19,14 +19,14 @@ class Header extends Component {
               <NavItem eventKey={1} href="/">
                 Home
               </NavItem>
-              <NavItem eventKey={2} href="/food">
+              <NavItem eventKey={2} href="#food">
                 Food
               </NavItem>
 
             </Nav>
             <Nav pullRight>
-              <NavItem eventKey={2} href="#">
-                Location
+              <NavItem eventKey={2} href="#contact">
+                Contact
               </NavItem>
             </Nav>
           </Navbar.Collapse>

@@ -28,19 +28,13 @@
     text-align: center; }
   .aboutUsContainer p {
     font-size: 1.5em;
-    font-weight: lighter; }
+    font-weight: lighter;
+    margin-top: 40px; }
   .aboutUsContainer .aboutUsText img {
     width: 200px;
     height: 200px;
     padding: 10px;
     margin-top: 25px; }
-  .aboutUsContainer .aboutUsText .left {
-    float: left; }
-  .aboutUsContainer .aboutUsText .right {
-    float: right; }
-  .aboutUsContainer .aboutUsText .full {
-    float: none;
-    width: 100%; }
 
 .baseLayoutContainer {
   display: flex;
@@ -65,7 +59,8 @@
     border-radius: 100%;
     max-width: 400px;
     max-height: 500px;
-    margin-top: 75px; }
+    margin-top: 75px;
+    border: 10px solid indianred; }
 
 html {
   background-color: black; }
@@ -147,7 +142,6 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 350px;
   margin-top: 150px;
   margin-bottom: 150px;
   margin-left: 30px;
@@ -180,14 +174,39 @@ body {
   height: 50vh !important;
   width: 100vw !important; }
 
-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: red;
-  margin-top: 50px;
-  box-shadow: 10px 10px 70px black; }
-  form input, form textarea {
-    width: 90%; }
+.formWrapper {
+  text-align: center; }
+  .formWrapper h1 {
+    text-align: center; }
+  .formWrapper form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: red;
+    margin-top: 50px;
+    color: black;
+    box-shadow: 10px 10px 70px black; }
+    .formWrapper form input, .formWrapper form textarea {
+      width: 90%;
+      font-size: 1.5em;
+      text-align: center; }
+    .formWrapper form button {
+      color: black;
+      background-color: green; }
+    .formWrapper form input {
+      margin-top: 10px; }
+    .formWrapper form textarea {
+      margin-top: 20px;
+      height: 30vh; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.full {
+  float: none;
+  width: 100% !important; }
 
 /*# sourceMappingURL=App.css.map */
