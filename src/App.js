@@ -11,11 +11,8 @@ class App extends Component {
     return (
       <BrowserRouter>
       <BaseLayout>
-       <Switch>
+       <Switch> 
         <Route exact path="/" component={LandingPage}/>
-        <Route exact path="/food" component={Food}/>
-        <Route exact path="/merch" component={Merch}/>
-
       </Switch>
       </BaseLayout>
     </BrowserRouter>

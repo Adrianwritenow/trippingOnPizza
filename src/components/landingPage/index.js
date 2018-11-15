@@ -16,21 +16,21 @@ class LandingPage extends Component {
         <Banner />
         <Carousel>
           <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src="images/CHARACTER_2.png" alt='firstImage'/>
+          <img className='carouselEating' alt="900x500" src="images/eating1.png" alt='firstImage'/>
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src=" images/CHARACTER_3.png" />
+          <img className='carouselEating' alt="900x500" src=" images/eating2.png" />
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img width={900} height={500} alt="900x500" src="images/CHARACTER_4.png" />
+          <img className='carouselEating' alt="900x500" src="images/eating3.png" />
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

@@ -16,8 +16,7 @@
 .landingPageContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 90%; }
+  justify-content: center; }
 
 .aboutUsContainer {
   padding: 5%;
@@ -48,8 +47,9 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100vw;
-  height: 95vh;
-  margin-top: 10%; }
+  height: 100vh;
+  background-image: url("/images/pizza.png");
+  background-size: cover; }
   .bannerContainer img {
     width: 80vw;
     height: 80vh; }
@@ -153,5 +153,9 @@ body {
     border-top: 1px solid antiquewhite;
     padding-top: 30px;
     border-bottom: 1px solid antiquewhite; }
+
+.carouselEating {
+  height: 50vh !important;
+  width: 100vw !important; }
 
 /*# sourceMappingURL=App.css.map */
