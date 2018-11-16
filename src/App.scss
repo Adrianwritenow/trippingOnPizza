@@ -8,7 +8,20 @@
 }
 
 
+.logoWrapper{
+  border: 10px solid #C12571;
+  border-radius: 100%;
+  background-color: #000000a8;
+  margin-top: 75px;
+  width: 100vw;
+  height: 60vh;
+  max-width: 400px;
+  max-height:500px;
+  display: flex;
+  justify-content: center;
 
+
+}
 
 .headerContainer{
   width: 100%;
@@ -81,12 +94,8 @@
   img{
     width: 100vw;
     height: 60vh;
-    background-color: #000000a8;
-    border-radius: 100%;
     max-width: 400px;
     max-height:500px;
-    margin-top: 75px;
-        border: 10px solid indianred;
 }
 
 }

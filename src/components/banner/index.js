@@ -9,8 +9,9 @@ class Banner extends Component {
     return (
       <div className='bannerContainer'>
       <ScrollAnimation duration={1.5} animateIn='rotateIn' animateOut='rotateOut'>
-
+      <div className='logoWrapper'>
         <img src='images/mainLogo1.png'/>
+      </div>
       </ScrollAnimation>
       </div>
     );
