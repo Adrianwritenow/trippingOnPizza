@@ -25,7 +25,8 @@
   width: 100vw;
   margin-top: 50px; }
   .aboutUsContainer h1 {
-    text-align: center; }
+    text-align: center;
+    font-size: 4em; }
   .aboutUsContainer p {
     font-size: 1.5em;
     font-weight: lighter;
@@ -177,22 +178,25 @@ body {
 .formWrapper {
   text-align: center; }
   .formWrapper h1 {
-    text-align: center; }
+    text-align: center;
+    font-size: 4em; }
   .formWrapper form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: red;
+    background-image: linear-gradient(rgba(206, 130, 170, 0), black);
     margin-top: 50px;
-    color: black;
-    box-shadow: 10px 10px 70px black; }
+    color: black; }
     .formWrapper form input, .formWrapper form textarea {
       width: 90%;
       font-size: 1.5em;
       text-align: center; }
     .formWrapper form button {
       color: black;
-      background-color: green; }
+      background-image: linear-gradient(#025202, darkseagreen);
+      width: 100%;
+      margin-top: 10px;
+      padding: 20px; }
     .formWrapper form input {
       margin-top: 10px; }
     .formWrapper form textarea {

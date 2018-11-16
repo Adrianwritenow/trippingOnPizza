@@ -37,6 +37,7 @@
 
   h1{
     text-align: center;
+    font-size: 4em;
   }
   p{
     font-size: 1.5em;
@@ -271,15 +272,15 @@ img{
 
   h1{
     text-align: center;
+    font-size: 4em;
   }
   form{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: red;
+    background-image:linear-gradient(rgba(206, 130, 170, 0),black);
     margin-top: 50px;
     color: black;
-    box-shadow: 10px 10px 70px black;
     input,textarea{
       width: 90%;
       font-size: 1.5em;
@@ -287,7 +288,10 @@ img{
     }
     button{
       color: black;
-      background-color: green;
+      background-image: linear-gradient(#025202,darkseagreen);
+      width: 100%;
+      margin-top: 10px;
+      padding: 20px;
     }
     input{
       margin-top: 10px;
