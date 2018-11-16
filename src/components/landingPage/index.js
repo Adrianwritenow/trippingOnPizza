@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
+import ScrollableAnchor from 'react-scrollable-anchor'
+
 import '../../App.css';
 import AboutUs from '../aboutUs';
 import Banner from '../banner';
@@ -42,9 +44,11 @@ class LandingPage extends Component {
         <ScrollAnimation animateIn='fadeInLeft'>
           <AboutUs />
         </ScrollAnimation>
-
-        <Food />
-        <div className='formWrapper' id='contact'>
+        <ScrollableAnchor id={'food'}>
+          <Food />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={'contact'}>
+        <div className='formWrapper'>
           <h1>CONTACT US</h1>
           <form action="https://formspree.io/your@email.com" method="POST">
             <input type="text" placeholder="YOUR NAME?" name="name"/>
@@ -53,6 +57,7 @@ class LandingPage extends Component {
             <button type="submit" value="Send">SUBMIT</button>
           </form>
         </div>
+      </ScrollableAnchor>
 
       </div>
     );

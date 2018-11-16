@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../../App.css';
 
+
 class Food extends Component {
   render() {
     return (
-      <div className='foodContainer' id='food'>
+
+      <div className='foodContainer' >
       <h1>OUR FOOD</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua.
